@@ -1,0 +1,18 @@
+---Recursive Function---
+void natural(int n){
+ 	if(n==0) return;
+	
+ 	cout<<n<<" ";
+ 	natural(n-1);
+ }
+ 
+ ---Iterative Function---
+  void natural(int n){
+ 	for(int i=1; i<=n; i++) cout<<i<<" ";
+ }
+
+ int main(){
+ 	int n; cin>>n;
+ 	natural(n);  //function will print n natural number
+ 	return 0;
+ }
